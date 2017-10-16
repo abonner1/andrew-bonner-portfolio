@@ -12,4 +12,16 @@ app.get('/', (request, response) => {
   })
 })
 
+app.get('/about', (request, response) => {
+  response.render('bio.hbs', {})
+})
+
+app.get('/contact', (request, response) => {
+  response.render('contact.hbs', {})
+})
+
+app.get('/tutorial', (request, response) => {
+  response.render('tutorial.hbs', {})
+})
+
 app.listen(3000)
