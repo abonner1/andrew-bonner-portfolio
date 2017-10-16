@@ -1,0 +1,22 @@
+{
+  "name": "andrew-bonner-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abonner1/andrew-bonner-portfolio.git"
+  },
+  "author": "Andrew Bonner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abonner1/andrew-bonner-portfolio/issues"
+  },
+  "homepage": "https://github.com/abonner1/andrew-bonner-portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
