@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/abonner1/andrew-bonner-portfolio#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "hbs": "^4.0.1"
   }
 }
