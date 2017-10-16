@@ -21,8 +21,8 @@ app.get('/contact', (request, response) => {
   response.render('contact.hbs', {})
 })
 
-app.get('/tutorial', (request, response) => {
-  response.render('tutorial.hbs', {})
+app.get('/skills', (request, response) => {
+  response.render('skills.hbs', {})
 })
 
 app.listen(3000)
