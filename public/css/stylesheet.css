@@ -26,3 +26,43 @@ body {
   font-family: "ITC Avant Garde Gothic W01 XLt", serif;
   background-color: #faebd7;
 }
+
+#nav ul {
+  list-style-type: none;
+}
+
+#nav ul li {
+  display: inline-block;
+  padding: 0 5px 0 0;
+}
+
+#nav ul li:not(:last-child) {
+  border-right: solid 1px;
+}
+
+#welcome {
+  font-family: "Benguiat ITC W01 Bold", serif;
+  font-size: 42px;
+  margin-left: 50px;
+}
+
+#welcome span {
+  display: block;
+}
+
+.blurb {
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  font-family: "BenguiatITCW01-BoldIt", serif;
+  text-align: center;
+}
