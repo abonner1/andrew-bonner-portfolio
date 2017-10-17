@@ -1,3 +1,28 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=637104ce-ef37-4cdd-86d5-06eb45d1432f");
+    @font-face{
+        font-family:"ITC Avant Garde Gothic W01 XLt";
+        src:url("Fonts/123b5137-3b00-48e9-bfec-161edb6f2377.eot?#iefix");
+        src:url("Fonts/123b5137-3b00-48e9-bfec-161edb6f2377.eot?#iefix") format("eot"),url("Fonts/e2726b32-fedc-4803-806a-a029c705ad22.woff2") format("woff2"),url("Fonts/cc19831d-e4b6-40fa-b009-45b1365dde5d.woff") format("woff"),url("Fonts/67615a4b-d349-4fda-8180-f0657773c140.ttf") format("truetype"),url("Fonts/ebddf8dd-9674-4364-86a0-f7d444cab14e.svg#ebddf8dd-9674-4364-86a0-f7d444cab14e") format("svg");
+    }
+    @font-face{
+        font-family:"Benguiat ITC W01 Bold";
+        src:url("Fonts/3a30141e-83ee-4ecd-9267-0f0dffa150f1.eot?#iefix");
+        src:url("Fonts/3a30141e-83ee-4ecd-9267-0f0dffa150f1.eot?#iefix") format("eot"),url("Fonts/f0d90745-207b-4ac4-838f-5406854f4477.woff2") format("woff2"),url("Fonts/3c306d1a-5c53-47ce-ac41-c40ca7fa23e0.woff") format("woff"),url("Fonts/9831392f-9d1d-461a-89f3-c301e618f609.ttf") format("truetype"),url("Fonts/6ec72c0e-8d1e-42ac-b68e-e1ac3780fae4.svg#6ec72c0e-8d1e-42ac-b68e-e1ac3780fae4") format("svg");
+    }
+    @font-face{
+        font-family:"BenguiatITCW01-BoldIt";
+        src:url("Fonts/bc55fa2c-c893-487e-83de-a0aa3943b9b1.eot?#iefix");
+        src:url("Fonts/bc55fa2c-c893-487e-83de-a0aa3943b9b1.eot?#iefix") format("eot"),url("Fonts/a476ed54-e628-4c4f-83f6-d65a243bafb7.woff2") format("woff2"),url("Fonts/cf8a5d3d-0429-4603-bce6-d396135ced3f.woff") format("woff"),url("Fonts/97f5cf2f-8df9-44ff-b2b8-cb369efc1389.ttf") format("truetype"),url("Fonts/9888b732-ed49-446d-8562-2cfc8ca185ff.svg#9888b732-ed49-446d-8562-2cfc8ca185ff") format("svg");
+    }
+
 body {
-  background-color: red;
+  font-family: "ITC Avant Garde Gothic W01 XLt", serif;
+  background-color: #faebd7;
 }
