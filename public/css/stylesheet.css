@@ -27,11 +27,11 @@ body {
   background-color: #faebd7;
 }
 
-#nav ul {
+#nav ul, .social ul {
   list-style-type: none;
 }
 
-#nav ul li {
+#nav ul li, .social ul li {
   display: inline-block;
   padding: 0 5px 0 0;
 }
@@ -40,29 +40,47 @@ body {
   border-right: solid 1px;
 }
 
-#welcome {
+#header {
   font-family: "Benguiat ITC W01 Bold", serif;
+  margin-top: 150px;
   font-size: 42px;
   margin-left: 50px;
 }
 
-#welcome span {
+#header span {
   display: block;
 }
 
 .blurb {
   margin-left: 50px;
+  font-size: 17pt;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
+.social img {
+  height: 35px;
+  width: auto;
+}
+
+.social li:last-child img {
+  height: 28px;
+  padding: 0 0 4px;
+}
+
 #footer {
   font-family: "BenguiatITCW01-BoldIt", serif;
   text-align: center;
+}
+
+#footer img {
+  height: 12px;
+  width: auto;
 }
