@@ -27,33 +27,53 @@ body {
   background-color: #faebd7;
 }
 
-#nav ul, .social ul {
-  list-style-type: none;
+/* NAVIGATION */
+
+#navbar {
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  background-color: black;
 }
 
-#nav ul li, .social ul li {
+#navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  color: white;
   display: inline-block;
-  padding: 0 5px 0 0;
+  width: 10%;
+  padding: 10px 5px 5px 5px;
 }
 
-#nav ul li:not(:last-child) {
-  border-right: solid 1px;
+#navbar a {
+  color: white;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ /* HEADER */
 #header {
   font-family: "Benguiat ITC W01 Bold", serif;
-  margin-top: 100px;
   font-size: 42px;
-  margin-left: 50px;
+  margin: 50px 0 0 50px;
 }
 
 #header span {
   display: block;
 }
 
+/* BLURB STYLES */
 .blurb {
   margin-left: 50px;
   font-size: 17pt;
+  margin: 25px 0 40px 50px;
 }
 
 .narrow {
@@ -69,6 +89,20 @@ a:hover {
   text-decoration: underline;
 }
 
+/* SOCIAL ICONS */
+div.social {
+  text-align: center;
+}
+
+.social ul {
+  list-style-type: none;
+}
+
+.social ul li {
+  display: inline-block;
+  padding: 0 5px 0 0;
+}
+
 .social img {
   height: 35px;
   width: auto;
@@ -79,6 +113,7 @@ a:hover {
   padding: 0 0 4px;
 }
 
+/* FOOTER STYLE */
 #footer {
   font-family: "BenguiatITCW01-BoldIt", serif;
   text-align: center;
