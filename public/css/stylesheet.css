@@ -24,7 +24,8 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 
 body {
   font-family: "ITC Avant Garde Gothic W01 XLt", serif;
-  background-color: #faebd7;
+  /*background-color: #faebd7;*/
+  background-color: #1E1726;
 }
 
 /* NAVIGATION */
@@ -32,7 +33,7 @@ body {
 #navbar {
   margin: 0 0 0 0;
   width: 100%;
-  height: 40px;
+  height: 60px;
   overflow: hidden;
   background-color: black;
 }
@@ -46,10 +47,14 @@ body {
   color: white;
   display: inline-block;
   width: 10%;
-  padding: 10px 5px 5px 5px;
+  padding: 20px 5px 5px 5px;
 }
 
 #navbar a {
+  color: #7E48A3;
+}
+
+#navbar a:hover {
   color: white;
 }
 
@@ -61,19 +66,60 @@ body {
  /* HEADER */
 #header {
   font-family: "Benguiat ITC W01 Bold", serif;
-  font-size: 42px;
-  margin: 50px 0 0 50px;
+  font-size: 52px;
+  text-align: center;
 }
 
-#header span {
+#header .name, .last-name {
+  color: #C0C3BF;
+  text-shadow: -2.5px 0 #7E48A3, 0 2.5px #7E48A3, 2.5px 0 #7E48A3, 0 -2.5px #7E48A3;
+}
+
+#header .name span {
+  font-size: 130px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+h1.last-name {
+  margin: 0;
+  line-height: 0.3;
+  font-size: 65px;
+}
+
+h1.title span {
+  margin-top: 75px;
   display: block;
+  line-height: 0.2;
+  text-decoration: overline;
+  text-decoration-color: #C0C3BF;
+}
+
+h1.title {
+  color: #7E48A3;
+}
+
+/* SECONDARY PAGE HEADERS */
+#header-reg {
+  font-family: "Benguiat ITC W01 Bold", serif;
+  font-size: 52px;
+  margin: 50px 0 0 50px;
+  color: #7E48A3;
+  text-shadow: -1.5px 0 #C0C3BF, 0 1.5px #C0C3BF, 1.5px 0 #C0C3BF, 0 -1.5px #C0C3BF;
 }
 
 /* BLURB STYLES */
-.blurb {
-  margin-left: 50px;
-  font-size: 17pt;
-  margin: 25px 0 40px 50px;
+div.blurb {
+  max-width: 200px;
+  margin: 15px auto;
+  color: white;
+}
+
+.blurb-reg {
+  font-size: 12pt;
+  margin: 20px 0 0px 50px;
+  color: white;
 }
 
 .narrow {
@@ -82,12 +128,15 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
+/* IMAGE STYLES */
+
 
 /* SOCIAL ICONS */
 div.social {
@@ -117,6 +166,7 @@ div.social {
 #footer {
   font-family: "BenguiatITCW01-BoldIt", serif;
   text-align: center;
+  color: white;
 }
 
 #footer img {
