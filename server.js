@@ -17,12 +17,12 @@ app.get('/about', (request, response) => {
   response.render('bio.hbs', {})
 })
 
-app.get('/contact', (request, response) => {
-  response.render('contact.hbs', {})
-})
-
 app.get('/skills', (request, response) => {
   response.render('skills.hbs', {})
+})
+
+app.get('/contact', (request, response) => {
+  response.render('contact.hbs', {})
 })
 
 app.listen(3000)
