@@ -21,6 +21,10 @@ app.get('/skills', (request, response) => {
   response.render('skills.hbs', {})
 })
 
+app.get('/projects', (request, response) => {
+  response.render('projects.hbs')
+})
+
 app.get('/contact', (request, response) => {
   response.render('contact.hbs', {})
 })
