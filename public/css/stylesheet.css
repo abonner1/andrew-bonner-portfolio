@@ -22,10 +22,16 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
         src:url("Fonts/bc55fa2c-c893-487e-83de-a0aa3943b9b1.eot?#iefix") format("eot"),url("Fonts/a476ed54-e628-4c4f-83f6-d65a243bafb7.woff2") format("woff2"),url("Fonts/cf8a5d3d-0429-4603-bce6-d396135ced3f.woff") format("woff"),url("Fonts/97f5cf2f-8df9-44ff-b2b8-cb369efc1389.ttf") format("truetype"),url("Fonts/9888b732-ed49-446d-8562-2cfc8ca185ff.svg#9888b732-ed49-446d-8562-2cfc8ca185ff") format("svg");
     }
 
-body {
+/* FRONT AND BACK COVER STYLE */
+#main-page, #contacts-page {
   font-family: "ITC Avant Garde Gothic W01 XLt", serif;
-  /*background-color: #faebd7;*/
   background-color: #1E1726;
+}
+
+/* PAGE STYLES */
+#bio-page, #skills-page, #projects-page {
+  font-family: "ITC Avant Garde Gothic W01 XLt", serif;
+  background-color: #faebd7;
 }
 
 /* NAVIGATION */
