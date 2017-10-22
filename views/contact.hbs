@@ -7,14 +7,24 @@
   </head>
   <body id="contacts-page">
     {{> navigation}}
-    <div class="">
-      <h1 id="header-reg">Contact Me</h1>
+    <div id="header">
+      <h1 class="name"><span>C</span>ONTACT M<span>E</span></h1>
+    </div>
+    <div class="contact-form">
       <form class="" action="index.html" method="post">
-        <input type="text" name="name" placeholder="Name">
-        <input type="text" name="email" placeholder="Email"><br>
-        <input type="text" name="subject" placeholder="Subject"><br>
-        <textarea type="textarea" name="message" placeholder="Message"></textarea><br>
-        <input type="submit" value="Send">
+        <div class="contact-info">
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="email" placeholder="Email">
+        </div>
+        <div class="subject">
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+        <div class="message">
+          <textarea type="textarea" name="message" placeholder="Message"></textarea>
+        </div>
+        <div class="send-button">
+          <button type="submit" name="send">Send</button>
+        </div>
       </form>
     </div>
     {{> footer}}
