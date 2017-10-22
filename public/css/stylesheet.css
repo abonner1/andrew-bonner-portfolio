@@ -111,13 +111,13 @@ h1.title {
   font-family: "Benguiat ITC W01 Bold", serif;
   font-size: 52px;
   margin: 50px 0 0 50px;
-  color: #7E48A3;
-  text-shadow: -1.5px 0 #C0C3BF, 0 1.5px #C0C3BF, 1.5px 0 #C0C3BF, 0 -1.5px #C0C3BF;
+  color: black;
+
 }
 
 /* BLURB STYLES */
 div.blurb {
-  max-width: 650px;
+  max-width: 675px;
   margin: 15px auto;
   color: white;
 }
@@ -125,7 +125,11 @@ div.blurb {
 .blurb-reg {
   font-size: 12pt;
   margin: 20px 0 0px 50px;
-  color: white;
+  color: black;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 .narrow {
@@ -134,7 +138,7 @@ div.blurb {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #7E48A3;
 }
 
 a:hover {
@@ -174,11 +178,88 @@ div.social {
   padding: 0 0 4px;
 }
 
+/* CONTACT FORM*/
+.contact-form {
+  max-width: 575px;
+  margin: 15px auto;
+}
+
+input, textarea {
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 3px 5px;
+  font-size: 12pt;
+}
+
+input, textarea {
+  border-color: black;
+  color: #C0C3BF;
+}
+
+.contact-form div.contact-info input {
+  display: inline-block;
+  width: 47.18%;
+  height: 30px;
+}
+
+.contact-form div.subject input {
+  width: 97.5%;
+}
+
+div.message textarea {
+  width: 98%;
+}
+
+div.subject input {
+  height: 30px;
+}
+
+div.message textarea {
+  height: 100px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+
+.send-button button {
+  background-color: black;
+  border-radius: 5px;
+  border-color: black;
+  color: #7E48A3;
+  font-size: 14pt;
+  padding: 3px;
+}
+
+.send-button button:hover {
+  background-color: #C0C3BF;
+}
+
 /* FOOTER STYLE */
 #footer {
   font-family: "BenguiatITCW01-BoldIt", serif;
+  font-size: 15pt;
   text-align: center;
-  color: white;
+  color: #C0C3BF;
+  text-shadow: -1px 0 #7E48A3, 0 1px #7E48A3, 1px 0 #7E48A3, 0 -1px #7E48A3;
 }
 
 #footer img {
