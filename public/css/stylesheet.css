@@ -110,7 +110,7 @@ h1.title {
 #header-reg {
   font-family: "Benguiat ITC W01 Bold", serif;
   font-size: 52px;
-  margin: 50px 0 0 50px;
+  margin: 50px 0 0 100px;
   color: black;
 
 }
@@ -124,7 +124,7 @@ div.blurb {
 
 .blurb-reg {
   font-size: 12pt;
-  margin: 20px 0 0px 50px;
+  margin: 20px 0 0px 150px;
   color: black;
 }
 
