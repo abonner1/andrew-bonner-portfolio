@@ -153,6 +153,12 @@ a:hover {
   width: 300px;
 }
 
+/* BIO IMAGE STYLES */
+.bio-image img {
+  height: auto;
+  width: 300px;
+}
+
 /* SOCIAL ICONS */
 div.social {
   text-align: center;
