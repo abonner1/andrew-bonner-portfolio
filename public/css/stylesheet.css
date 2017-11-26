@@ -168,8 +168,12 @@ input, textarea {
 }
 
 input, textarea {
-  border-color: #E8E8E8;
+  border-color: black;
   color: black;
+}
+
+input {
+  border-width: thin;
 }
 
 .contact-form div.contact-info input {
