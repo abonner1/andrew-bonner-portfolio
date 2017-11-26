@@ -170,6 +170,7 @@ input, textarea {
   margin-bottom: 5px;
   padding: 3px 5px;
   font-size: 12pt;
+  font-family: 'EB Garamond', serif;
 }
 
 input, textarea {
@@ -230,7 +231,8 @@ div.message textarea {
   border-color: white;
   color: black;
   font-size: 14pt;
-  padding: 3px;
+  padding: 5px;
+  font-family: 'EB Garamond', serif;
 }
 
 .send-button button:hover {
