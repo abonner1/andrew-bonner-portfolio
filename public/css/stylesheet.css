@@ -148,6 +148,86 @@ div.social {
   padding: 0 0 4px;
 }
 
+/* CONTACT FORM*/
+div#header h1 {
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 575px;
+  margin: 25px auto;
+}
+
+input, textarea {
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 3px 5px;
+  font-size: 12pt;
+}
+
+input, textarea {
+  border-color: black;
+  color: #C0C3BF;
+}
+
+.contact-form div.contact-info input {
+  display: inline-block;
+  width: 47.18%;
+  height: 30px;
+}
+
+.contact-form div.subject input {
+  width: 97.5%;
+}
+
+div.message textarea {
+  width: 98%;
+}
+
+div.subject input {
+  height: 30px;
+}
+
+div.message textarea {
+  height: 100px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #7E48A3;
+    font-size: 12pt;
+    padding: 3px 5px;
+}
+
+.send-button button {
+  background-color: black;
+  border-radius: 5px;
+  border-color: black;
+  color: #7E48A3;
+  font-size: 14pt;
+  padding: 3px;
+}
+
+.send-button button:hover {
+  background-color: #C0C3BF;
+}
+
 /* FOOTER STYLE */
 #footer {
   font-size: 15pt;
