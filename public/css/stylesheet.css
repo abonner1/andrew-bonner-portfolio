@@ -123,6 +123,11 @@ div.bio-image img {
   padding: 0 200px 0 0 ;
 }
 
+.contact-image {
+  height: auto;
+  width: 575px;
+}
+
 /* SOCIAL ICONS */
 div.social {
   text-align: center;
