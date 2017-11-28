@@ -85,6 +85,23 @@ div.blurb {
   width: auto;
 }
 
+div.col-1, div.col-2 {
+  padding: 200px 25px 0 25px;
+  display: inline-block;
+}
+
+div.col-1 {
+  float: left;
+  width: 300px;
+  margin-left: 25px;
+}
+
+div.col-2 {
+  float: right;
+  width: 300px;
+  margin-right: 25px;
+}
+
 /* ALTERNATIVE TEXT STYLES */
 div.blurb-reg {
   margin-top: 150px;
@@ -135,9 +152,12 @@ img.skills-image {
   margin-top: 150px;
   margin-left: 15px;
 }
+
 img.projects-image {
   height: auto;
-  width: 350px;
+  width: 500px;
+  padding: 100px 50px 0 100px;
+  display: inline-block;
 }
 
 /* SOCIAL ICONS */
