@@ -75,6 +75,12 @@ h2 span {
   font-size: 18pt;
 }
 
+h1.title {
+  padding: 100px 0 0 0;
+  text-align: center;
+  font-style: italic;
+}
+
 /* TEXT STYLES */
 
 div.blurb {
@@ -86,8 +92,9 @@ div.blurb {
 }
 
 div.col-1, div.col-2 {
-  padding: 200px 25px 0 25px;
+  padding: 75px 25px 0 25px;
   display: inline-block;
+  text-align: center;
 }
 
 div.col-1 {
@@ -100,6 +107,10 @@ div.col-2 {
   float: right;
   width: 300px;
   margin-right: 25px;
+}
+
+div.col-1 p, div.col-2 p {
+  padding: 15px 0;
 }
 
 /* ALTERNATIVE TEXT STYLES */
@@ -156,7 +167,7 @@ img.skills-image {
 img.projects-image {
   height: auto;
   width: 500px;
-  padding: 100px 50px 0 100px;
+  padding: 25px 50px 0 100px;
   display: inline-block;
 }
 
