@@ -153,6 +153,14 @@ div.social {
   padding: 0 0 4px;
 }
 
+img.skills-image {
+  float: left;
+  height: auto;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
 /* CONTACT FORM*/
 div#header h1 {
   padding: 100px 0 0 0;
