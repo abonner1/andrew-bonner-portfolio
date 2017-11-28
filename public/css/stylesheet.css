@@ -128,6 +128,18 @@ div.bio-image img {
   width: 575px;
 }
 
+img.skills-image {
+  float: left;
+  height: auto;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+img.projects-image {
+  height: auto;
+  width: 350px;
+}
+
 /* SOCIAL ICONS */
 div.social {
   text-align: center;
@@ -151,14 +163,6 @@ div.social {
 .social li:last-child img {
   height: 28px;
   padding: 0 0 4px;
-}
-
-img.skills-image {
-  float: left;
-  height: auto;
-  width: 800px;
-  margin-top: 150px;
-  margin-left: 15px;
 }
 
 /* CONTACT FORM*/
