@@ -59,7 +59,7 @@ a:hover {
 /* TITLE STYLES */
 
 div.header {
-  padding: 200px 200px 0 0;
+  padding: 75px 200px 0 0;
   float: right;
   text-align: center;
   font-size: 20pt;
@@ -78,7 +78,6 @@ h2 span {
 h1.title {
   padding: 100px 0 0 0;
   text-align: center;
-  font-style: italic;
 }
 
 /* TEXT STYLES */
@@ -136,8 +135,13 @@ div.blurb-other h1, div.blurb-other p, div.blurb-reg h1, div.blurb-reg p {
 
 /* IMAGE STYLES */
 
-div#cover-image {
-  padding: 60px 0 0 100px;
+div.cover-image {
+  padding: 60px 0 0 125px;
+}
+
+div.cover-image img {
+  height: 700px;
+  width: auto;
 }
 
 div.bio-image {
