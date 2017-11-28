@@ -54,6 +54,9 @@ a {
 
 a:hover {
   color: red;
+  transition: 1s;
+  -webkit-transition: color 1s;
+  -moz-transition:    color 1s;
 }
 
 /* TITLE STYLES */
