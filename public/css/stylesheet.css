@@ -116,11 +116,9 @@ div.col-1 p, div.col-2 p {
 }
 
 /* ALTERNATIVE TEXT STYLES */
-div.blurb-reg {
+div.col-2.special {
   margin-top: 150px;
-  padding: 75px 200px 0 0;
-  float: right;
-  text-align: center;
+  padding: 25px 45px 0 0;
   width: 25%;
 }
 
@@ -163,19 +161,18 @@ div.bio-image img {
   width: 575px;
 }
 
-img.skills-image {
-  float: left;
+div.skills-image img {
   height: auto;
   width: 800px;
   margin-top: 150px;
   margin-left: 15px;
 }
 
-img.projects-image {
+div.projects-image {
   height: auto;
   width: 500px;
-  padding: 25px 50px 0 100px;
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* SOCIAL ICONS */
@@ -303,4 +300,34 @@ div.message textarea {
 #footer img {
   height: 12px;
   width: auto;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1400px) {
+  div.projects-image {
+    display: none;
+  }
+
+  div.col-1, div.col-2 {
+    width: 400px;
+  }
+
+  div.col-2.special {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+  }
+
+  div.skills-image {
+    width: 600px;;
+    margin: 0 auto;
+  }
+
+  div.skills-image img {
+    width: 600px;
+    height: auto;
+  }
 }
