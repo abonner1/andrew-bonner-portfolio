@@ -83,6 +83,10 @@ h1.title {
   text-align: center;
 }
 
+h1.italic {
+  font-style: italic;
+}
+
 /* TEXT STYLES */
 
 div.blurb {
@@ -95,7 +99,7 @@ div.blurb {
 
 div.col-1, div.col-2 {
   padding: 75px 25px 0 25px;
-  display: inline-block;
+  /*display: inline-block;*/
   text-align: center;
 }
 
@@ -116,17 +120,15 @@ div.col-1 p, div.col-2 p {
 }
 
 /* ALTERNATIVE TEXT STYLES */
-div.col-2.special {
-  margin-top: 150px;
-  padding: 25px 45px 0 0;
+div.col-1.special {
+  margin-top: 100px;
+  padding: 75px 0 0 200px;
   width: 25%;
 }
 
-div.blurb-other {
+div.col-2.special-2 {
   margin-top: 150px;
-  padding: 75px 0 0 200px;
-  text-align: center;
-  float: left;
+  padding: 25px 45px 0 0;
   width: 25%;
 }
 
@@ -162,6 +164,7 @@ div.bio-image img {
 }
 
 div.skills-image img {
+  float: left;
   height: auto;
   width: 800px;
   margin-top: 150px;
@@ -216,7 +219,7 @@ input, textarea {
   border-radius: 5px;
   margin-bottom: 5px;
   padding: 3px 5px;
-  font-size: 12pt;
+  font-size: 18pt;
   font-family: 'EB Garamond', serif;
 }
 
@@ -231,12 +234,12 @@ input {
 
 .contact-form div.contact-info input {
   display: inline-block;
-  width: 47.18%;
-  height: 30px;
+  width: 47.6%;
+  height: 45px;
 }
 
 .contact-form div.subject input {
-  width: 97.5%;
+  width: 98%;
 }
 
 div.message textarea {
@@ -244,31 +247,31 @@ div.message textarea {
 }
 
 div.subject input {
-  height: 30px;
+  height: 45px;
 }
 
 div.message textarea {
-  height: 100px;
+  height: 200px;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    black;
-    font-size: 12pt;
+    font-size: 18pt;
     padding: 3px 5px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color:    black;
-    font-size: 12pt;
+    font-size: 18pt;
     padding: 3px 5px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color:    black;
-    font-size: 12pt;
+    font-size: 18pt;
     padding: 3px 5px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color:    black;
-    font-size: 12pt;
+    font-size: 18pt;
     padding: 3px 5px;
 }
 
@@ -277,14 +280,17 @@ div.message textarea {
   border-radius: 5px;
   border-color: white;
   color: black;
-  font-size: 14pt;
   padding: 5px;
+  width: 75px;
+  font-size: 18pt;
   font-family: 'EB Garamond', serif;
 }
 
 .send-button button:hover {
-  background-color: #C0C3BF;
-  border-color: #C0C3BF;
+  background-color: red;
+  border-color: red;
+  color: white;
+  transition: 1s;
 }
 
 /* FOOTER STYLE */
@@ -310,24 +316,59 @@ div.message textarea {
   }
 
   div.col-1, div.col-2 {
-    width: 400px;
-  }
-
-  div.col-2.special {
     float: none;
     display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+  }
+
+  div.col-2.special-2 {
     margin: 0 auto;
     padding: 0;
     width: 600px;
   }
 
   div.skills-image {
-    width: 600px;;
+    width: 600px;
     margin: 0 auto;
   }
 
   div.skills-image img {
     width: 600px;
     height: auto;
+  }
+
+  div.col-1.special {
+    margin: 0 auto;
+    width: 600px;
+    padding: 15px 0 0 0;
+  }
+
+  div.bio-image {
+    float: none;
+    margin: 0 auto;
+    width: 400px;
+  }
+
+  div.bio-image img {
+    width: 400px;
+    height: auto;
+    padding: 100px 0 0 0;
+  }
+
+  div.cover-image {
+    display: none;
+  }
+
+  div.blurb, div.header {
+    float: none;
+    padding: 0;
+    margin: 10px auto;
+    width: 700px;
+  }
+
+  .contact-form div.contact-info input, .contact-form div.subject input, div.message textarea {
+    width: 98%;
   }
 }
