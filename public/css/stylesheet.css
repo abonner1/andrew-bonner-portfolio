@@ -54,9 +54,9 @@ a {
 
 a:hover {
   color: red;
-  transition: 1s;
-  -webkit-transition: color 1s;
-  -moz-transition:    color 1s;
+  transition: 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition:    color 0.5s;
 }
 
 /* TITLE STYLES */
@@ -291,6 +291,8 @@ div.message textarea {
   border-color: red;
   color: white;
   transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
 }
 
 /* FOOTER STYLE */
