@@ -198,9 +198,97 @@ div.social {
   width: auto;
 }
 
-.social li:last-child img {
+.social img.medium, .social img.medium-red {
   height: 28px;
   padding: 0 0 4px;
+}
+
+/* GITHUB */
+div.github-icon {
+  position: relative;
+}
+
+div.github-icon img.github {
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+div.github-icon img.github:hover {
+  opacity: 0;
+}
+
+img.github-red:hover {
+  opacity: 1;
+}
+
+div.twitter-icon {
+  position: relative;
+}
+
+/* TWITTER */
+div.twitter-icon img.twitter {
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+div.twitter-icon img.twitter:hover {
+  opacity: 0;
+}
+
+img.twitter-red:hover {
+  opacity: 1;
+}
+
+/* LINKEDIN */
+div.linkedin-icon {
+  position: relative;
+}
+
+div.linkedin-icon img.linkedin {
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+div.linkedin-icon img.linkedin:hover {
+  opacity: 0;
+}
+
+img.linkedin-red:hover {
+  opacity: 1;
+}
+
+/* MEDIUM */
+div.medium-icon {
+  position: relative;
+}
+
+div.medium-icon img.medium {
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+div.medium-icon img.medium:hover {
+  opacity: 0;
+}
+
+img.medium-red:hover {
+  opacity: 1;
 }
 
 /* CONTACT FORM*/
