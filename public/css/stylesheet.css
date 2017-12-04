@@ -91,7 +91,7 @@ h1.italic {
 div.col-1, div.col-2 {
   padding: 70px 25px 0 25px;
   /*display: inline-block;*/
-  text-align: center;
+  text-align: justify;
 }
 
 div.col-1 {
@@ -119,7 +119,7 @@ div.col-1.special {
 
 div.col-2.special-2 {
   margin-top: 150px;
-  padding: 25px 75px 0 0;
+  padding: 25px 125px 0 0;
   width: 25%;
 }
 
