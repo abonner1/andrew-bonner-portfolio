@@ -173,9 +173,14 @@ div.skills-image img {
 
 div.projects-image {
   height: auto;
-  width: 500px;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.projects-image img {
+  width: 450px;
+  height: auto;
 }
 
 /* SOCIAL ICONS */
@@ -386,11 +391,10 @@ div.message textarea {
 /* FOOTER STYLE */
 #footer {
   font-size: 15pt;
-  text-align: right;
+  text-align: center;
   position: fixed;
   width: 100%;
   bottom: 20px;
-  right: 50px;
 }
 
 #footer img {
@@ -460,5 +464,9 @@ div.message textarea {
 
   .contact-form div.contact-info input, .contact-form div.subject input, div.message textarea {
     width: 98%;
+  }
+
+  #navbar ul li {
+    width: 15%;
   }
 }
