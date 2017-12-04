@@ -62,20 +62,19 @@ a:hover {
 /* TITLE STYLES */
 
 div.header {
-  padding: 75px 200px 0 0;
+  padding: 250px 100px 0 0;
   float: right;
-  text-align: center;
-  font-size: 20pt;
-  width: auto;
+  text-align: justify;
+  width: 700px;
 }
 
-h2.author {
+div.header p {
+  font-size: 25pt;
+}
+
+p.blurb {
   padding: 20px 0;
   font-style: italic;
-}
-
-h2 span {
-  font-size: 18pt;
 }
 
 h1.title {
@@ -89,16 +88,8 @@ h1.italic {
 
 /* TEXT STYLES */
 
-div.blurb {
-  padding: 75px 200px 0 0;
-  float: right;
-  clear: both;
-  text-align: center;
-  width: auto;
-}
-
 div.col-1, div.col-2 {
-  padding: 75px 25px 0 25px;
+  padding: 70px 25px 0 25px;
   /*display: inline-block;*/
   text-align: center;
 }
@@ -128,12 +119,8 @@ div.col-1.special {
 
 div.col-2.special-2 {
   margin-top: 150px;
-  padding: 25px 45px 0 0;
+  padding: 25px 75px 0 0;
   width: 25%;
-}
-
-div.blurb-other h1, div.blurb-other p, div.blurb-reg h1, div.blurb-reg p {
-  padding: 0 0 15px 0;
 }
 
 /* IMAGE STYLES */
@@ -166,9 +153,9 @@ div.bio-image img {
 div.skills-image img {
   float: left;
   height: auto;
-  width: 800px;
+  width: 700px;
   margin-top: 150px;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 div.projects-image {
@@ -455,7 +442,7 @@ div.message textarea {
     display: none;
   }
 
-  div.blurb, div.header {
+  div.header {
     float: none;
     padding: 0;
     margin: 10px auto;
