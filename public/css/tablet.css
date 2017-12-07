@@ -62,9 +62,10 @@ a:hover {
 /* TITLE STYLES */
 
 div.header {
-  margin: 0 auto;
+  float: right;
   text-align: justify;
-  width: 80%;
+  padding: 0 25px 0 0;
+  width: 60%;
 }
 
 div.header p {
@@ -107,17 +108,19 @@ div.col-2.special-2 {
 /* IMAGE STYLES */
 
 div.cover-image img {
-  display: none;
+  padding: 75px 0 0 15px;
+  height: 400px;
+  width: auto;
 }
 
 div.bio-image {
   margin: 0 auto;
-  width: 200px;
+  width: 300px;
   padding: 75px 0 0;
 }
 
 div.bio-image img {
-  height: 200px;
+  height: 300px;
   width: auto;
 }
 
@@ -176,6 +179,7 @@ img.medium-red {
   text-align: center;
   width: 100%;
   padding: 25px 0 10px;
+  clear: both;
 }
 
 #footer img {
