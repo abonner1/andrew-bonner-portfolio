@@ -27,14 +27,14 @@ body {
 
 #navbar ul li {
   display: inline-block;
-  width: 10%;
+  width: 25%;
   padding: 15px 5px 5px 5px;
 }
 
 #navbar a {
   color: black;
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 20px;
 }
 
 #navbar a:hover {
@@ -394,20 +394,81 @@ img.medium-red:hover {
   }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1650px) {
+  #navbar {
+    height: 100px;
+  }
+
+  #navbar ul li {
+    width: 20%;
+    padding: 25px 5px 5px 5px;
+  }
+
+  #navbar a {
+    font-size: 40px;
+  }
+
   div.header {
     width: 80%;
     float: none;
     margin: 0 auto;
   }
 
-  div.cover-image img {
-    height: 1000px;
-    width: auto;
+  div.col-1, div.col-2 {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  div.col-1.special {
+    margin-left: 150px;
+    width: 50%;
+    padding: 70px 0 25px;
+  }
+
+  h1.title, div.biography h1 {
+    font-size: 65px;
   }
 
   div.header p {
     font-size: 100px;
+  }
+
+  div.biography p, div.projects p {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  div.cover-image img {
+    padding: 50px 0 0;
+    height: 1250px;
+    width: auto;
+  }
+
+  div.projects-image {
+    height: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.projects-image img {
+    display: none;
+  }
+
+  div.bio-image {
+    float: right;
+    margin-top: 50px;
+  }
+
+  div.bio-image img {
+    height: 800px;
+    width: auto;
+    padding: 0 100px 0 0 ;
   }
 
   .social img {
@@ -418,5 +479,18 @@ img.medium-red:hover {
   .social img.medium, .social img.medium-red {
     height: 65px;
     padding: 0 0 4px;
+  }
+
+  div.biography, div.projects {
+    padding: 25px 0 0;
+  }
+
+  #footer {
+    font-size: 40px;
+  }
+
+  #footer img {
+    height: 25px;
+    width: auto;
   }
 }
