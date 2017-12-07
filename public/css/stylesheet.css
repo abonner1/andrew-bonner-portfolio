@@ -309,6 +309,107 @@ img.medium-red:hover {
 }
 
 /* RESPONSIVE DESIGN */
+@media (min-width: 1650px) {
+  #navbar {
+    height: 100px;
+  }
+
+  #navbar ul li {
+    width: 20%;
+    padding: 25px 5px 5px 5px;
+  }
+
+  #navbar a {
+    font-size: 40px;
+  }
+
+  div.header {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+    padding: 400px 0 0;
+  }
+
+  div.col-1, div.col-2 {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  div.col-1.special {
+    margin-left: 150px;
+    width: 50%;
+    padding: 70px 0 25px;
+  }
+
+  h1.title, div.biography h1 {
+    font-size: 65px;
+  }
+
+  div.header p {
+    font-size: 75px;
+  }
+
+  div.biography p, div.projects p {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  div.cover-image img {
+    padding: 50px 0 0;
+    height: 1250px;
+    width: auto;
+  }
+
+  div.projects-image {
+    height: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.projects-image img {
+    display: none;
+  }
+
+  div.bio-image {
+    float: right;
+    margin-top: 50px;
+  }
+
+  div.bio-image img {
+    height: 800px;
+    width: auto;
+    padding: 0 100px 0 0 ;
+  }
+
+  .social img {
+    height: 75px;
+    width: auto;
+  }
+
+  .social img.medium, .social img.medium-red {
+    height: 65px;
+    padding: 0 0 4px;
+  }
+
+  div.biography, div.projects {
+    padding: 25px 0 0;
+  }
+
+  #footer {
+    font-size: 40px;
+  }
+
+  #footer img {
+    height: 25px;
+    width: auto;
+  }
+}
 
 @media (max-width: 1400px) {
   div.welcome {
@@ -375,18 +476,20 @@ img.medium-red:hover {
   }
 
   div.cover-image {
-    display: none;
+    padding: 25px 0 0 50px;
+    width: 250px;
+    height: auto;
   }
 
   div.header {
     float: none;
-    padding: 0;
+    padding: 75px 0 0;
     margin: 10px auto;
-    width: 700px;
+    width: 80%;
   }
 
-  .contact-form div.contact-info input, .contact-form div.subject input, div.message textarea {
-    width: 98%;
+  .social ul {
+    margin: 0;
   }
 
   #navbar ul li {
@@ -394,103 +497,8 @@ img.medium-red:hover {
   }
 }
 
-@media (min-width: 1650px) {
-  #navbar {
-    height: 100px;
-  }
-
-  #navbar ul li {
-    width: 20%;
-    padding: 25px 5px 5px 5px;
-  }
-
-  #navbar a {
-    font-size: 40px;
-  }
-
-  div.header {
-    width: 80%;
-    float: none;
-    margin: 0 auto;
-  }
-
-  div.col-1, div.col-2 {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    width: 75%;
-  }
-
-  div.col-1.special {
-    margin-left: 150px;
-    width: 50%;
-    padding: 70px 0 25px;
-  }
-
-  h1.title, div.biography h1 {
-    font-size: 65px;
-  }
-
-  div.header p {
-    font-size: 100px;
-  }
-
-  div.biography p, div.projects p {
-    font-size: 45px;
-  }
-
-  h2 {
-    font-size: 50px;
-  }
-
+@media (max-width: 425px) {
   div.cover-image img {
-    padding: 50px 0 0;
-    height: 1250px;
-    width: auto;
-  }
-
-  div.projects-image {
-    height: auto;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div.projects-image img {
     display: none;
-  }
-
-  div.bio-image {
-    float: right;
-    margin-top: 50px;
-  }
-
-  div.bio-image img {
-    height: 800px;
-    width: auto;
-    padding: 0 100px 0 0 ;
-  }
-
-  .social img {
-    height: 75px;
-    width: auto;
-  }
-
-  .social img.medium, .social img.medium-red {
-    height: 65px;
-    padding: 0 0 4px;
-  }
-
-  div.biography, div.projects {
-    padding: 25px 0 0;
-  }
-
-  #footer {
-    font-size: 40px;
-  }
-
-  #footer img {
-    height: 25px;
-    width: auto;
   }
 }
