@@ -62,14 +62,14 @@ a:hover {
 /* TITLE STYLES */
 
 div.header {
-  padding: 350px 100px 0 0;
+  padding: 450px 100px 0 0;
   float: right;
   text-align: justify;
-  width: 50%;
+  width: 45%;
 }
 
 div.header p {
-  font-size: 100px;
+  font-size: 50px;
 }
 
 p.blurb {
@@ -96,22 +96,16 @@ h2 {
 
 /* TEXT STYLES */
 
+div.col-1 {
+  padding: 70px 0 0 0;
+}
+
 div.col-1, div.col-2 {
-  padding: 70px 25px 0 25px;
+  padding: 0 25px 0 25px;
   /*display: inline-block;*/
   text-align: justify;
-}
-
-div.col-1 {
-  float: left;
-  width: 700px;
-  margin-left: 25px;
-}
-
-div.col-2 {
-  float: right;
-  width: 700px;
-  margin-right: 25px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 div.col-1 p, div.col-2 p {
@@ -119,17 +113,16 @@ div.col-1 p, div.col-2 p {
   font-size: 35px;
 }
 
-/* ALTERNATIVE TEXT STYLES */
 div.col-1.special {
-  margin-top: 100px;
-  padding: 75px 0 0 150px;
-  width: 50%;
+  float: left;
+  padding: 150px 0 0 50px;
+  width: 45%;
 }
 
 div.col-2.special-2 {
-  margin-top: 150px;
-  padding: 25px 125px 0 0;
-  width: 50%;
+  float: right;
+  padding: 150px 50px 0 0;
+  width: 45%;
 }
 
 /* IMAGE STYLES */
@@ -140,7 +133,7 @@ div.cover-image {
 }
 
 div.cover-image img {
-  height: 1500px;
+  height: 1000px;
   width: auto;
 }
 
@@ -152,7 +145,7 @@ div.bio-image {
 div.bio-image img {
   height: 600px;
   width: auto;
-  padding: 0 150px 0 0 ;
+  padding: 25px 100px 0 0 ;
 }
 
 .contact-image {
@@ -163,21 +156,14 @@ div.bio-image img {
 div.skills-image img {
   float: left;
   height: auto;
-  width: 900px;
+  width: 750px;
   margin-top: 150px;
   margin-left: 50px;
-}
-
-div.projects-image {
-  height: auto;
-  width: 750px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 75px 0 0 0;
 }
 
 div.projects-image img {
-  width: 750px;
-  height: auto;
+  display: none;
 }
 
 /* SOCIAL ICONS */
