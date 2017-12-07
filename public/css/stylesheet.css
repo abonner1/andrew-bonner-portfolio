@@ -309,7 +309,7 @@ img.medium-red:hover {
 }
 
 /* RESPONSIVE DESIGN */
-@media (min-width: 1650px) {
+@media screen and (min-width: 1650px) {
   #navbar {
     height: 100px;
   }
@@ -411,7 +411,7 @@ img.medium-red:hover {
   }
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   div.welcome {
     padding: 75px 0 0 0;
   }
@@ -497,7 +497,7 @@ img.medium-red:hover {
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   div.cover-image img {
     display: none;
   }
