@@ -309,6 +309,7 @@ img.medium-red:hover {
 #footer {
   font-size: 15pt;
   text-align: center;
+  clear: both;
   width: 100%;
   padding: 25px 0 10px;
   clear: both;
