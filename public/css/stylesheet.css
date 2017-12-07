@@ -11,6 +11,7 @@ body {
   margin: 0;
   width: 100%;
   height: 60px;
+  z-index: 1;
   overflow: hidden;
   background-color: #E7E7E7;
   position: fixed;
@@ -62,7 +63,7 @@ a:hover {
 /* TITLE STYLES */
 
 div.header {
-  padding: 250px 100px 0 0;
+  padding: 225px 100px 0 0;
   float: right;
   text-align: justify;
   width: 700px;
@@ -73,89 +74,98 @@ div.header p {
 }
 
 p.blurb {
-  padding: 20px 0;
+  padding: 50px 0;
   font-style: italic;
 }
 
 h1.title {
-  padding: 100px 0 0 0;
+  padding: 75px 0 25px 0;
   text-align: center;
+}
+
+h1.title, div.biography h1 {
+  font-size: 45px;
 }
 
 h1.italic {
   font-style: italic;
 }
 
+/* SECTION STYLES */
+div.welcome, div.biography, div.projects {
+  clear: both;
+}
+
+div.biography {
+  margin-top: 75px;
+}
+
+hr {
+  border: 0;
+}
+
 /* TEXT STYLES */
 
 div.col-1, div.col-2 {
-  padding: 70px 25px 0 25px;
-  /*display: inline-block;*/
+  padding: 50px 25px 0 25px;
   text-align: justify;
 }
 
 div.col-1 {
   float: left;
   width: 300px;
-  margin-left: 25px;
+  margin-left: 75px;
 }
 
 div.col-2 {
   float: right;
   width: 300px;
-  margin-right: 25px;
+  margin-right: 75px;
 }
 
-div.col-1 p, div.col-2 p {
-  padding: 15px 0;
+div.projects p {
+  padding: 5px 0 50px;
 }
 
-/* ALTERNATIVE TEXT STYLES */
+div.biography p {
+  padding: 10px 0;
+}
+
 div.col-1.special {
-  margin-top: 100px;
-  padding: 75px 0 0 200px;
-  width: 25%;
+  margin-left: 100px;
+  width: 35%;
+  padding: 70px 0 25px;
 }
 
-div.col-2.special-2 {
-  margin-top: 150px;
+h2 {
+  font-size: 25px;
+}
+
+/*div.col-2.special-2 {
   padding: 25px 125px 0 0;
   width: 25%;
-}
+}*/
 
 /* IMAGE STYLES */
-
 div.cover-image {
-  padding: 60px 0 0 125px;
+  padding: 75px 0 0 125px;
 }
 
 div.cover-image img {
   height: 700px;
   width: auto;
+  float: left;
 }
 
 div.bio-image {
   float: right;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 div.bio-image img {
   height: 500px;
   width: auto;
   padding: 0 200px 0 0 ;
-}
-
-.contact-image {
-  height: auto;
-  width: 575px;
-}
-
-div.skills-image img {
-  float: left;
-  height: auto;
-  width: 700px;
-  margin-top: 150px;
-  margin-left: 50px;
 }
 
 div.projects-image {
@@ -283,105 +293,14 @@ img.medium-red:hover {
   opacity: 1;
 }
 
-/* CONTACT FORM*/
-div#header h1 {
-  padding: 100px 0 0 0;
-  text-align: center;
-}
-
-.contact-form {
-  max-width: 575px;
-  margin: 25px auto;
-}
-
-input, textarea {
-  background-color: white;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  padding: 3px 5px;
-  font-size: 18pt;
-  font-family: 'EB Garamond', serif;
-}
-
-input, textarea {
-  border-color: black;
-  color: black;
-}
-
-input {
-  border-width: thin;
-}
-
-.contact-form div.contact-info input {
-  display: inline-block;
-  width: 47.6%;
-  height: 45px;
-}
-
-.contact-form div.subject input {
-  width: 98%;
-}
-
-div.message textarea {
-  width: 98%;
-}
-
-div.subject input {
-  height: 45px;
-}
-
-div.message textarea {
-  height: 200px;
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    black;
-    font-size: 18pt;
-    padding: 3px 5px;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    black;
-    font-size: 18pt;
-    padding: 3px 5px;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    black;
-    font-size: 18pt;
-    padding: 3px 5px;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:    black;
-    font-size: 18pt;
-    padding: 3px 5px;
-}
-
-.send-button button {
-  background-color: white;
-  border-radius: 5px;
-  border-color: white;
-  color: black;
-  padding: 5px;
-  width: 75px;
-  font-size: 18pt;
-  font-family: 'EB Garamond', serif;
-}
-
-.send-button button:hover {
-  background-color: red;
-  border-color: red;
-  color: white;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-}
-
 /* FOOTER STYLE */
 #footer {
   font-size: 15pt;
   text-align: center;
-  position: fixed;
   width: 100%;
-  bottom: 20px;
+  position: relative;
+  padding: 35px 0 20px;
+  clear: both;
 }
 
 #footer img {
@@ -392,8 +311,23 @@ div.message textarea {
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 1400px) {
-  div.projects-image {
-    display: none;
+  div.welcome {
+    padding: 75px 0 0 0;
+  }
+
+  div.biography {
+    margin-top: 0;
+  }
+
+  h1.title {
+    font-size: 50px;
+    text-align: left;
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  div.biography h1 {
+    font-size: 50px;
   }
 
   div.col-1, div.col-2 {
@@ -401,23 +335,7 @@ div.message textarea {
     display: block;
     margin: 0 auto;
     padding: 0;
-    width: 500px;
-  }
-
-  div.col-2.special-2 {
-    margin: 0 auto;
-    padding: 0;
     width: 600px;
-  }
-
-  div.skills-image {
-    width: 600px;
-    margin: 0 auto;
-  }
-
-  div.skills-image img {
-    width: 600px;
-    height: auto;
   }
 
   div.col-1.special {
@@ -426,14 +344,32 @@ div.message textarea {
     padding: 15px 0 0 0;
   }
 
+  h2 {
+    font-size: 40px;
+  }
+
+  hr {
+    width: 50%;
+    margin: 0 auto;
+    clear: both;
+    height: 10px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  div.projects-image {
+    display: none;
+  }
+
   div.bio-image {
     float: none;
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
   }
 
   div.bio-image img {
-    width: 400px;
+    width: 500px;
     height: auto;
     padding: 100px 0 0 0;
   }
@@ -455,5 +391,32 @@ div.message textarea {
 
   #navbar ul li {
     width: 15%;
+  }
+}
+
+@media (min-width: 1441px) {
+  div.header {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  div.cover-image img {
+    height: 1000px;
+    width: auto;
+  }
+
+  div.header p {
+    font-size: 100px;
+  }
+
+  .social img {
+    height: 75px;
+    width: auto;
+  }
+
+  .social img.medium, .social img.medium-red {
+    height: 65px;
+    padding: 0 0 4px;
   }
 }
