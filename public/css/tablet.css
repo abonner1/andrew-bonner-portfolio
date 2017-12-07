@@ -157,6 +157,10 @@ div.social {
   padding: 0 0 4px;
 }
 
+img.mail-red {
+  display: none;
+}
+
 img.github-red {
   display: none;
 }
@@ -185,4 +189,9 @@ img.medium-red {
 #footer img {
   height: 12px;
   width: auto;
+}
+
+div.contact {
+  text-align: center;
+  font-size: 25px;
 }

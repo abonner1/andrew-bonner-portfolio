@@ -195,6 +195,28 @@ div.social {
   padding: 0 0 4px;
 }
 
+/* MAIL */
+div.mail-icon {
+  position: relative;
+}
+
+div.mail-icon img.mail {
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+div.mail-icon img.mail:hover {
+  opacity: 0;
+}
+
+img.mail-red:hover {
+  opacity: 1;
+}
+
 /* GITHUB */
 div.github-icon {
   position: relative;
@@ -295,4 +317,9 @@ img.medium-red:hover {
 #footer img {
   height: 12px;
   width: auto;
+}
+
+div.contact {
+  text-align: center;
+  font-size: 25px;
 }
