@@ -205,6 +205,28 @@ div.social {
   padding: 0 0 4px;
 }
 
+/* MAIL */
+div.mail-icon {
+  position: relative;
+}
+
+div.mail-icon img.mail {
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+div.mail-icon img.mail:hover {
+  opacity: 0;
+}
+
+img.mail-red:hover {
+  opacity: 1;
+}
+
 /* GITHUB */
 div.github-icon {
   position: relative;
@@ -227,11 +249,11 @@ img.github-red:hover {
   opacity: 1;
 }
 
+/* TWITTER */
 div.twitter-icon {
   position: relative;
 }
 
-/* TWITTER */
 div.twitter-icon img.twitter {
   position: absolute;
   opacity: 1;
@@ -413,7 +435,7 @@ img.medium-red:hover {
 
 @media screen and (max-width: 1400px) {
   div.welcome {
-    padding: 75px 0 0 0;
+    padding: 50px 0 0 0;
   }
 
   div.biography {
@@ -424,7 +446,7 @@ img.medium-red:hover {
     font-size: 50px;
     text-align: left;
     margin: 0 auto;
-    width: 600px;
+    width: 80%;
   }
 
   div.biography h1 {
@@ -436,12 +458,12 @@ img.medium-red:hover {
     display: block;
     margin: 0 auto;
     padding: 0;
-    width: 600px;
+    width: 80%;
   }
 
   div.col-1.special {
     margin: 0 auto;
-    width: 600px;
+    width: 80%;
     padding: 15px 0 0 0;
   }
 
@@ -450,7 +472,7 @@ img.medium-red:hover {
   }
 
   hr {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     clear: both;
     height: 10px;
@@ -466,11 +488,11 @@ img.medium-red:hover {
   div.bio-image {
     float: none;
     margin: 0 auto;
-    width: 500px;
+    width: 250px;
   }
 
   div.bio-image img {
-    width: 500px;
+    width: 250px;
     height: auto;
     padding: 100px 0 0 0;
   }
@@ -483,8 +505,8 @@ img.medium-red:hover {
 
   div.header {
     float: none;
-    padding: 75px 0 0;
-    margin: 10px auto;
+    padding: 100px 0 15px;
+    margin: 10px auto 0;
     width: 80%;
   }
 
@@ -497,8 +519,49 @@ img.medium-red:hover {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   div.cover-image img {
     display: none;
+  }
+
+  #navbar {
+    height: 50px;
+  }
+
+  #navbar a {
+    font-size: 15px;
+  }
+
+  #navbar ul li {
+    width: 20%;
+  }
+
+  div.bio-image {
+    width: 200px;
+  }
+
+  div.bio-image img {
+    width: 200px;
+  }
+
+  h1.title {
+    font-size: 25px;
+  }
+
+  div.biography h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  div.header p {
+    padding: 0 0 15px;
+    font-size: 25px;
+  }
+
+  div.welcome {
+    padding: 0 0 15px;
   }
 }
